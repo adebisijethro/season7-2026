@@ -127,11 +127,53 @@ This creates a lightweight organizational memory while allowing meetings and con
 
 ## Proposals and Consent
 
-Gimbalabs has historically used proposals as a way to turn ideas and tensions into concrete experiments.
+Gimbalabs uses proposals to turn ideas, opportunities, and tensions into concrete experiments. Anyone in the community can bring a proposal forward.
 
-A proposal may begin informally through conversation or at Open Spaces, become documented for community review, and evolve through questions, reactions, objections, and adaptation.
+### How to Make a Proposal
 
-Season 7 continues to develop this process while moving proposal documentation and coordination from Notion into GitHub.
+1. Have an idea
+
+Identify something you'd like to create, improve, change, or explore with Gimbalabs.
+
+2. Draft your proposal
+
+- Copy the [Gimbalabs Proposal Template](proposals/proposal-template.md).
+- Edit the document using whatever tools you're comfortable with.
+- Publish your proposal somewhere others can access and review it, such as:
+  - A GitHub repository (encouraged)
+  - HackMD
+  - Google Docs or another shared document platform
+
+Your proposal should be accessible to the community and available for feedback and revision throughout the consent process.
+
+3. Submit your proposal to Gimbalabs
+
+Create a new issue in the [Season 7 GitHub Issues](https://github.com/gimbalabs/season7-2026/issues).
+
+Include:
+- A descriptive title
+- A brief explanation of your idea
+- A link to your public proposal document and/or repository
+
+This issue becomes the tracking point for your proposal. Gimbalabs administrators will add it to the [Season 7 Project Board](https://github.com/orgs/gimbalabs/projects/7), where its progress can be followed.
+
+4. Promote your proposal
+
+Invite the community to participate:
+
+- Come to Open Space and introduce your idea during the call for proposals.
+- Share your proposal in [Gimbalabs Discord](https://discord.gg/WWMBExJjHM).
+- Schedule time at an upcoming Open Space to present your proposal for the consent process.
+
+5. Present your proposal and participate in the consent process
+
+Present your proposal at Open Space, explain its purpose and intended outcomes, and invite questions and feedback.
+
+Through the consent process, community members can raise concerns, suggest improvements, and help refine the proposal toward a decision.
+
+The goal is not to create a perfect proposal, but to develop something that is:
+
+**Good enough for now. Safe enough to try.**
 
 ## Links
 
