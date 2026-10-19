@@ -31,7 +31,7 @@ Meetings, Gimbalabs proposals, governance decisions, organizational questions, a
 
 When a project has its own repository, its code, detailed documentation, technical issues, deliverables, and day-to-day work should remain there. Season 7 can link to that work rather than duplicate it.
 
-The Season 7 GitHub Project provides the cross-repository view that connects these different pieces of work.
+[The Season 7 GitHub Project](https://github.com/orgs/gimbalabs/projects/7/views/1) provides the cross-repository view that connects these different pieces of work.
 
 ## How We Work
 
@@ -54,9 +54,9 @@ For Season 7, we are experimenting with GitHub as an open organizational workspa
 Different GitHub tools serve different purposes:
 
 * **This repository** holds the organizational record of Season 7.
-* **GitHub Projects** provides a cross-project view of current work and status.
-* **GitHub Issues** track specific work, questions, proposals, and activities.
-* **Individual repositories** remain the home for projects that have their own code, documentation, issues, and contributors.
+* **[GitHub Projects](https://github.com/orgs/gimbalabs/projects/7/views/1)** provides a cross-project view of current work and status.
+* **[GitHub Issues in this repo](https://github.com/gimbalabs/season7-2026/issues)** track specific work, questions, proposals, and activities.
+* **Individual repositories or shared folders** remain the home for projects that have their own code, documentation, issues, and contributors.
 * **Discord and meetings** remain important spaces for conversation, coordination, and deliberation.
 
 The goal is not to recreate Notion inside a single GitHub repository. Instead, Season 7 uses GitHub's distributed structure while maintaining a shared organizational record.
