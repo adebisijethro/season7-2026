@@ -137,7 +137,7 @@ Identify something you'd like to create, improve, change, or explore with Gimbal
 
 2. Draft your proposal
 
-- Copy the [Gimbalabs Proposal Template](proposals/proposal-template.md).
+- Copy the [Gimbalabs Proposal Template](resources/proposal-template.md).
 - Edit the document using whatever tools you're comfortable with.
 - Publish your proposal somewhere others can access and review it, such as:
   - A GitHub repository (encouraged)
