@@ -1,4 +1,4 @@
-# Gimbalabs Product Research Direction to Self-Sustainability
+# Gimbalabs Product Research Direction; to Self-Sustainability
 
 **Status:** Draft  
 **Funding requested:** 9,500 ADA  
