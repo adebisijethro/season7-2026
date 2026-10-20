@@ -1,7 +1,7 @@
-# Gimbalabs Live Research and Ecosystem Testing Program
+# Gimbalabs Product Research Direction to Self-Sustainability
 
 **Status:** Draft  
-**Funding requested:** 12,000 ADA  
+**Funding requested:** 9,500 ADA  
 **Duration:** 7 weeks  
 **Tracks:** Layer 2 (Thursday); DeFi (Wednesday); joint AI meeting (week 7)
 
@@ -26,13 +26,13 @@ Gimbalabs would miss the round, or submit an idea that has not been tested again
 
 ### Need
 
-Test the products listed below, then finish with working products ready for Catalyst. The ask is **12,000 ADA** over 7 weeks.
+Test the products listed below, then finish with a prototype product minimum of test running on preprod. The ask is **9,500 ADA** over 7 weeks. That is 9,000 ADA for the work, plus 500 ADA for project-lead coordination.
 
 ## Proposal
 
 ### 1. Title or Brief Description
 
-**Gimbalabs Live Research and Ecosystem Testing Program: Cardano Layer 2 and DeFi**
+**Gimbalabs Product Research Direction to Self-Sustainability**
 
 Twelve test sessions in six weeks, two per week. Wednesday is DeFi. Thursday is Layer 2. Week 7 is one joint meeting. The output is tested products and working builds for the next Catalyst round.
 
@@ -40,9 +40,9 @@ Twelve test sessions in six weeks, two per week. Wednesday is DeFi. Thursday is 
 
 Test first. Build second. The categories below are the test list, not seven products Gimbalabs must invent.
 
-**Thursday — Layer 2.** Test core infrastructure, oracles, bridges, and payments. If a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2 that works with Cardano L1?
+**Thursday — Layer 2.** Test core infrastructure, oracles, bridges, and payments. If a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2 that works with Cardano L1? This track is narrower. It stays on one infrastructure question and ends in one prototype, so two people are enough.
 
-**Wednesday — DeFi.** Test DeFi, stablecoins, payments, identity, and real-world assets. The build target comes from those tests, not from a single preset problem.
+**Wednesday — DeFi.** Test stablecoins, payments, identity, lending, and real-world assets. The build target comes from those tests, not from a single preset problem. This track is broader. It touches several kinds of products, so it can take up to three people. One person is enough to run it. A third person joins only if someone wants the seat.
 
 Rules:
 
@@ -62,67 +62,41 @@ After 7 weeks:
 
 ### 4. Details of the Proposal
 
-Each session tests the products listed for that category. Record what works, what fails, cost, setup, and trust. Do not start a new build until those products have been tested.
+Each session: name one Cardano problem, find the products for that week, test them, record speed, cost, setup, trust, and limits, then publish whether a prototype is justified. The list below is the plan, not a claim that every feature exists. Week 1 can replace a product that cannot be tested.
 
-The livestream is the public part. Research, coding, and writing happen between Wednesday and Thursday. The budget pays for that work.
+The livestream is the public part. Research, brainstorming, coding, testing, and writing happen between sessions. The budget pays for that work.
 
-#### Products to test
+Test every product in that week’s row before starting a build. Wednesday is DeFi. Thursday is Layer 2.
 
-**L2s to test**
+#### Track A — Thursday, Layer 2
 
-- 
-- 
-- 
-- 
-- 
+| Week | Session | Products to test | Question | Output |
+| --- | --- | --- | --- | --- |
+| 1 | Core infrastructure | | How do setup, settlement, and the link to Cardano L1 compare? | Setup and settlement comparison. |
+| 2 | Data, oracles, and analytics | | How do update rate, delay, failure, cost, and use in a Plutus validator compare? | One oracle integration test and a reference design. |
+| 3 | Bridges and interoperability | | Can an outside event reach Cardano, and what trust does that require? | Threat model and one interoperability test. |
+| 4 | Payment channels and Hydra | | How do flow, settlement, throughput, and user experience compare? | Execution and settlement comparison. |
+| 5 | Remaining Layer 2 tests | | Which gap is still open after the earlier tests? | Shortlist for the week-6 prototype. |
+| 6 | Prototype | | Which single problem is worth a Hydra fork or other special-purpose Layer 2 that works with Cardano L1? | One working prototype on preprod, or a decision not to build. |
 
-**Identity and Authentication**
+#### Track B — Wednesday, DeFi
 
-- 
-- 
-- 
+| Week | Session | Products to test | Question | Output |
+| --- | --- | --- | --- | --- |
+| 1 | DeFi and stablecoins | | How is USDCx minted, moved, spent, and redeemed on Cardano, and how do other Cardano stablecoin enterprises issue, back, and redeem their coins? | A practical note on USDCx usage and on how each other stablecoin enterprise works. |
+| 2 | Payment | | What does it take to send or settle a payment with these tools? | Payment flow note. |
+| 3 | Identity and authentication | | Can a credential be issued and checked in one workflow? | One integration test and a list of gaps. |
+| 4 | Real-world asset tokenization | | How is a real-world asset minted, transferred, and limited? | Tokenization case study. |
+| 5 | Remaining DeFi tests | | What blocks collateral, borrowing, and stablecoin use across these apps? | Case study and integration note. |
+| 6 | Working product | | Which tested gap is worth a working DeFi product for the next Catalyst round? | One working product on preprod, or a written reason not to build. |
 
-**Decentralized Finance (DeFi) and Stablecoins**
+Week 7 is not a test session. Both teams meet, share what was tested and built, and discuss how AI can help in blockchain.
 
-- 
-- 
-- 
-
-**Core Infrastructure**
-
-- Andamio
-- 
-- 
-
-**Payment**
-
-- 
-- 
-3.
-
-**Data, Oracles and Analytics**
-
-- 
-- 
-- 
-
-**Real-World Asset Tokenization**
-
-- 
-- 
-- 
-
-**Bridges and Interoperability**
-
-- 
-- 
-- 
-
-**A working product must include** a named problem, a comparison with at least two tested products, a test someone else can run, known limits, and setup steps. The week-6 result must be feasible for production. That is the condition for the final payment.
+**A prototype must include** a named problem, a comparison with at least two tested products, a test someone else can run, a threat model and known limits, measurements where they apply, an open repository, setup steps, and a short roadmap. The week-6 result must run on preprod. That is the condition for the final payment.
 
 **Out of scope:** a full security audit, a production bridge, liquidity provision, token rewards.
 
-**Treasury return.** If the community accepts this term, every later funding round a project from this program wins returns **10% of that new funding** to the Gimbalabs treasury. This 12,000 ADA grant is not cut. A round that is not won returns nothing.
+**Treasury return.** If the community accepts this term, every later funding round a project from this program wins returns **10% of that new funding** to the Gimbalabs treasury.
 
 ### 5. Impact and Benefits
 
@@ -144,53 +118,66 @@ A “do not build” result can close a category. It does not unlock the week-6 
 
 Six test weeks, then one joint week. **Wednesday: DeFi. Thursday: Layer 2.** Week 7 is both teams together. No extra budget for week 7.
 
-| Week | Wednesday | Thursday | Pay |
+| Week | Wednesday — DeFi | Thursday — Layer 2 | Pay |
 | --- | --- | --- | --- |
-| 1 | DeFi and stablecoins | Core infrastructure | Medium |
+| 1 | USDCx and other stablecoin enterprises | Core infrastructure | Medium |
 | 2 | Payment | Data, oracles, and analytics | Research, equal |
 | 3 | Identity and authentication | Bridges and interoperability | Research, equal |
 | 4 | Real-world asset tokenization | Payment channels and Hydra | Research, equal |
-| 5 | Finish remaining DeFi tests | Finish remaining Layer 2 tests | Research, equal |
-| 6 | DeFi working product | Layer 2 working product | Highest, if it can work in production |
+| 5 | Remaining DeFi tests | Remaining Layer 2 tests | Research, equal |
+| 6 onward | DeFi building | Layer 2 building | Paid after building cand demo launch with announcement to community |
 | 7 | Both teams meet. Share what was tested and built. Discuss how AI can help in blockchain. | | No separate pay |
 
 ### 8. Resources Required
 
-**12,000 ADA** pays for weeks 1–6. Each week’s payment is split in half: Layer 2 hosts and Gimbalabs contributors.
+The request is **9,500 ADA**. At **$0.22 per ADA**, that is **$2,090**.
 
-| Pool | ADA | Pays |
-| --- | ---: | --- |
-| Layer 2 hosts | 6,000 | Thursday tests and the week-6 product |
-| Gimbalabs contributors | 6,000 | Wednesday tests, plus one Layer 2 contributor from Gimbalabs |
-| **Total** | **12,000** | |
-
-| People | Split | Each |
+| | ADA | USD |
 | --- | ---: | ---: |
-| Ahmed, Jethro, and one person from the community | 3,000 / 3 | 1,000 |
-| One Gimbalabs Layer 2 contributor, and one other nominee | 2,000 / 2 | 1,000 |
-| Week-6 production product | 1,000 | Paid only if it can work in production |
-| **Gimbalabs pool** | **6,000** | |
+| DeFi pool | 5,400 | $1,188 |
+| Layer 2 pool | 3,600 | $792 |
+| Project-lead coordination | 500 | $110 |
+| **Total** | **9,500** | **$2,090** |
 
-Ahmed and Jethro are nominated. The community seat, the Gimbalabs Layer 2 seat, and the second seat in the 2,000 ADA pair are open.
+DeFi has three people because the track covers several product types. Layer 2 has two people because the track is one specific infrastructure question. Each of the five people receives the same **1,800 ADA** for the work. The 500 ADA coordination payment is extra, and it is not taken from either pool.
 
-| Week | Each pool | Both pools | Why |
+| Pool | People | ADA | Pays |
 | --- | ---: | ---: | --- |
-| 1 | 1,000 | 2,000 | First sessions. Medium. |
-| 2 | 750 | 1,500 | Research. |
-| 3 | 750 | 1,500 | Research. |
-| 4 | 750 | 1,500 | Research. |
-| 5 | 750 | 1,500 | Research. |
-| 6 | 2,000 | 4,000 | Working product. Highest. |
-| 7 | 0 | 0 | Joint AI meeting. |
-| **Total** | **6,000** | **12,000** | |
+| DeFi | 3 | 5,400 | Wednesday tests and the week-6 DeFi product |
+| Layer 2 | 2 | 3,600 | Thursday tests and the week-6 Layer 2 prototype |
+| Project lead | | 500 | Coordination and supervision |
+| **Total** | **5** | **9,500** | |
 
-Week 6 is not paid for a diagram or a talk. If the product cannot work in production, that payment stays unreleased.
+| Person | Role | ADA |
+| --- | --- | ---: |
+| Emmanuel | Layer 2 | 1,800 |
+| One open nominee | Layer 2 | 1,800 |
+| Ahmed | DeFi | 1,800 |
+| Jethro | DeFi | 1,800 |
+| One open nominee | DeFi | 1,800 |
+| Emmanuel | Coordination and supervision | 500 |
+| **Paid** | | **9,500** |
+
+Ahmed and Jethro are nominated for DeFi. One DeFi seat is open. Emmanuel is nominated for Layer 2 and is the project lead. One Layer 2 seat is open.
+
+| Week | DeFi | Layer 2 | Both | Why |
+| --- | ---: | ---: | ---: | --- |
+| 1 | 900 | 600 | 1,500 | First sessions. Medium. |
+| 2 | 600 | 400 | 1,000 | Research. |
+| 3 | 600 | 400 | 1,000 | Research. |
+| 4 | 600 | 400 | 1,000 | Research. |
+| 5 | 600 | 400 | 1,000 | Research. |
+| 6 onward | 2,100 | 1,400 | 3,500 | Building. Paid from the start of the build through the building work. |
+| 7 | 0 | 0 | 0 | Joint AI meeting. |
+| **Total** | **5,400** | **3,600** | **9,000** | |
 
 ### 9. Responsibilities
 
-**Emmanuel** is the project lead and the Layer 2 research lead. He joins the DeFi team, the live sessions, and the week-7 meeting as a volunteer, so that time is not paid.
+**Layer 2** is Emmanuel and one open nominee. Two people, because that track stays on one infrastructure question.
 
-**Layer 2 hosts** run Thursday from the 6,000 ADA Layer 2 pool. **Ahmed, Jethro, and the community nominee** share 3,000 ADA. **One Gimbalabs Layer 2 contributor**, nominated by anyone, and **one other nominee** share 2,000 ADA.
+**DeFi** is Ahmed, Jethro, and one open nominee. Three people, because that track tests several kinds of products.
+
+**Emmanuel** is the project lead. responsible for success, coordination and supervision.
 
 Both teams attend week 7. **Gimbalabs** accepts each week’s output before that week’s payment. Attendance is not acceptance.
 
@@ -200,7 +187,7 @@ Both teams attend week 7. **Gimbalabs** accepts each week’s output before that
 | --- | --- |
 | Sessions skip products and jump to a build. | A category is not built until its listed products are tested. |
 | The Catalyst submission is still a generic pitch. | Week 6 must leave a working product, not a research topic. |
-| Week 6 claims a product that cannot run in production. | The highest payment stays unreleased. |
+| Week 6 and beyond claims a product that cannot run in production. | The highest payment stays unreleased. |
 | Tests create security or cost risk. | Keep tests small. No production bridge, liquidity provision, or full audit in this budget. |
 
 ### 11. Review and Adaptation Plan
