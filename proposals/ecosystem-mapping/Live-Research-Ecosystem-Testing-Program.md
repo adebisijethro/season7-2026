@@ -2,28 +2,31 @@
 
 **Status:** Draft  
 **Funding requested:** 12,000 ADA  
-**Duration:** 12 weeks  
-**Tracks:** Layer 2 and specialized infrastructure; DeFi and liquidity
+**Duration:** 7 weeks  
+**Tracks:** Layer 2 (Thursday); DeFi (Wednesday); joint AI meeting (week 7)
 
 ## Gimbalabs Primary Driver
 
 To provide open, replicable safe spaces to learn, to explore, and to empower individuals and organizations anywhere so that we can solve meaningful problems.
 
-Gimbalabs funds experiments, not just activities. This program must leave evidence, reusable notes and code, and a clear record of what is worth building next.
+Gimbalabs funds experiments, not just activities. This program must leave evidence, reusable notes and code, and a working product that can be submitted next.
 
 ## Proposal Driver
 
 ### Current Situation
 
-Cardano builders often discuss Layer 2 designs, bridges, oracles, and DeFi tools before those tools are tested for cost, speed, trust, and failure. Project Catalyst’s recent themes — stablecoins, programmable tokens, oracles, and verifiable identity — are useful starting points, not a build list.
+Cardano builders often discuss Layer 2 designs, bridges, oracles, and DeFi tools before those tools are tested for cost, speed, trust, and failure. Project Catalyst’s recent themes stablecoins, programmable tokens, oracles, and verifiable identity are useful starting points, not a build list.
+
+In addition, to the funding and sustainability of Gimbalabs, The next Project Catalyst round may not have an ecosystem or general category with what we witnessed with the pilot phase. Also a research pitch without a working product would have nowhere clear to go.
+
 
 ### Effects
 
-Without tests, time and funds can go to tools that already exist, or a real gap can be missed. Recordings alone do not show what to build or what to leave alone.
+Gimbalabs would miss the round, or submit an idea that has not been tested against products that already exist.
 
 ### Need
 
-Run a 6-week public experiment: test what exists, publish the results, and build only where a gap is real. The ask is **12,000 ADA**. A smaller option is **9,000 ADA**.
+Test the products listed below, then finish with working products ready for Catalyst. The ask is **12,000 ADA** over 7 weeks.
 
 ## Proposal
 
@@ -31,161 +34,182 @@ Run a 6-week public experiment: test what exists, publish the results, and build
 
 **Gimbalabs Live Research and Ecosystem Testing Program: Cardano Layer 2 and DeFi**
 
-Twelve public sessions. Six on Layer 2 and specialized infrastructure. Six on DeFi and liquidity. The output is repeatable tests, ecosystem maps, and small prototypes — not twelve recordings.
+Twelve test sessions in six weeks, two per week. Wednesday is DeFi. Thursday is Layer 2. Week 7 is one joint meeting. The output is tested products and working builds for the next Catalyst round.
 
 ### 2. Background or Rationale
 
-**Track A — Layer 2.** Test existing execution setups, payment channels, oracle networks, Plutus zero-knowledge proofs, and cross-chain checks or bridges. A general-purpose Layer 2 may not be the result.
+Test first. Build second. The categories below are the test list, not seven products Gimbalabs must invent.
 
-The open question: if a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2? By session 6, deliver one prototype that works with Cardano L1, or a written reason not to build one.
+**Thursday — Layer 2.** Test core infrastructure, oracles, bridges, and payments. If a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2 that works with Cardano L1?
 
-**Track B — DeFi.** Test how Cardano apps can improve liquidity access, routing, capital use, stablecoin use, and app-to-app connections with tools that already exist. Liquidity fragmentation — assets split across pools and apps — is the problem. Programmable tokens, identity, oracles, and stablecoins are inputs to that problem, not separate products.
+**Wednesday — DeFi.** Test DeFi, stablecoins, payments, identity, and real-world assets. The build target comes from those tests, not from a single preset problem.
 
 Rules:
 
-1. Pick one Layer 2 prototype after the early tests. Do not build Hydra, oracles, zero-knowledge checks, and bridges as four projects.
-2. If a current tool already solves the problem, document that and do not build a copy.
+1. Test every product on the lists before starting a build.
+2. Week 6 and onward delivers a working project that can be used to rise funds to continue building, give announcements let people test or show interests.
 3. Publish notes, code, setup steps, and recordings.
 
 ### 3. Intended Outcome
 
-After 12 weeks:
+After 7 weeks:
 
-- Twelve recorded sessions, with slides and links to the tools tested.
-- One Layer 2 prototype that works with Cardano L1, or a public reason not to build it.
-- Three Cardano app case studies on liquidity.
-- At least two DeFi prototypes, or implementation plans, aimed at liquidity fragmentation.
-- Tests, benchmarks, diagrams, and a final report.
-- A public reason for each idea that was built, narrowed, or dropped.
-
-If two DeFi prototypes cannot be built well in the time and budget left, narrow the build. Do not add weak software to hit a count.
+- Every product listed below has been tested in a session.
+- One Layer 2 product that works with Cardano L1 and can work in preprod.
+- Working DeFi products drawn from the tests.
+- Notes from the week-7 meeting on what was built and how AI can help in blockchain.
+- A public reason for each build that was kept or dropped.
 
 ### 4. Details of the Proposal
 
-Each session: name one Cardano problem, find existing tools, test them, record speed, cost, setup, trust, and limits, then publish whether a prototype is justified. Tools are chosen in the first two sessions. The list below is the plan, not a claim that every feature exists.
+Each session tests the products listed for that category. Record what works, what fails, cost, setup, and trust. Do not start a new build until those products have been tested.
 
-The livestream is the public part. Research, brainstorming, coding, testing, and writing happen between sessions. The budget pays for that work.
+The livestream is the public part. Research, coding, and writing happen between Wednesday and Thursday. The budget pays for that work.
 
-#### Track A — Sessions 1 to 6
+#### Products to test
 
-| Session | Question | Output |
-| --- | --- | --- |
-| 1. Hydra and other payment channels | How do flow, settlement, throughput, user experience, and operating assumptions compare with designs such as Lightning? | Execution and settlement comparison. |
-| 2. Specialized execution | Can a single-purpose environment beat a general-purpose Layer 2 on setup, interoperability, and trust? | Feasibility matrix and shortlist. |
-| 3. Oracles | How do Cardano price feeds compare on update rate, delay, failure, cost, and use in Plutus validators? | One integration test and a reference design. |
-| 4. Zero-knowledge and cross-chain checks | Can an existing proof or bridge let Cardano verify an outside event, and at what cost and trust? | A small proof of concept, if feasible. |
-| 5. Messaging | How can an outside event trigger a Cardano action, and what trust does that require? | Threat model and one interoperability test. |
-| 6. Prototype | Which single problem is worth a Hydra fork or other special-purpose Layer 2 that works with Cardano L1? | One working prototype, or a decision not to build. |
+**L2s to test**
 
-#### Track B — Sessions 7 to 12
+- 
+- 
+- 
+- 
+- 
 
-| Session | Question | Output |
-| --- | --- | --- |
-| 7. DEX execution | How do selected exchanges, and aggregators where they exist, compare on pools, slippage, fees, depth, and swap construction? | DEX comparison and execution benchmark. |
-| 8. Fragmentation and routing | Where does liquidity sit, and can current routing find a better trade? | Fragmentation map and routing spec. |
-| 9. Stablecoins and lending | What blocks collateral, borrowing, and stablecoin use across apps? | Case study and integration note. |
-| 10. Programmable tokens | How do CIP-0113 tokens work with wallets, SDKs, and apps, including transfer limits? | Integration test and compatibility gaps. |
-| 11. Identity and oracles | Do identity tools and oracle feeds meet one concrete DeFi workflow? | Integration matrix and one tested workflow. |
-| 12. Final demos | Which three apps, and which liquidity gaps, are worth a prototype? | Three case studies, two prototypes, and the final report. |
+**Identity and Authentication**
 
-**A prototype must include** a named problem, a comparison with at least two existing approaches, a test someone else can run, a threat model and known limits, measurements where they apply, an open repository with setup steps, and a short roadmap.
+- 
+- 
+- 
 
-DeFi candidates, not a promise to build all three: routing or discovery across liquidity sources; one link across exchange, lending, or stablecoin apps; or analytics of depth, execution, and fragmentation. If an aggregator already routes well enough, write that down.
+**Decentralized Finance (DeFi) and Stablecoins**
 
-**Out of scope:** a full security audit, a production bridge, liquidity provision, token rewards, large infrastructure buys, and a production general-purpose Layer 2.
+- 
+- 
+- 
 
-**Treasury return.** Every Gimbalabs-funded project returns **10%** of the amount it receives to the Gimbalabs treasury. Of 12,000 ADA, **1,200 ADA** goes back and **10,800 ADA** pays for the work.
+**Core Infrastructure**
+
+- Andamio
+- 
+- 
+
+**Payment**
+
+- 
+- 
+3.
+
+**Data, Oracles and Analytics**
+
+- 
+- 
+- 
+
+**Real-World Asset Tokenization**
+
+- 
+- 
+- 
+
+**Bridges and Interoperability**
+
+- 
+- 
+- 
+
+**A working product must include** a named problem, a comparison with at least two tested products, a test someone else can run, known limits, and setup steps. The week-6 result must be feasible for production. That is the condition for the final payment.
+
+**Out of scope:** a full security audit, a production bridge, liquidity provision, token rewards.
+
+**Treasury return.** If the community accepts this term, every later funding round a project from this program wins returns **10% of that new funding** to the Gimbalabs treasury. This 12,000 ADA grant is not cut. A round that is not won returns nothing.
 
 ### 5. Impact and Benefits
 
-Developers get a public record of how the selected tools behave and where they fail. Gimbalabs gets a reason to fund a next step or to stop.
-
-This phase does not promise income. A prototype that holds up can support a later grant, build, or paid tool. Ownership and any revenue share for that later phase are set before more funds are used.
+- Gimbalabs contributors get working products they can maintain after a long time, worth mentioning that Andamio is currently doing this.
+- Independent Funding source to the Gimabalbs treasury without direct external grants.
 
 ### 6. Evaluation Criteria
 
-Views are recorded. They are not the success test. The program succeeds if:
+Views are not the success test. The program succeeds if:
 
-- All twelve sessions and their materials are public.
-- Repositories include setup steps, tests, and open issues.
-- The Layer 2 prototype meets section 4, or the report explains why it was not built.
-- Three app case studies are published, and at least two DeFi prototypes meet section 4 — or a written scope cut replaces a dropped prototype.
-- At least three cross-ecosystem comparisons are published, each with a reason to build or not build.
-- 10% of each release is returned to the treasury and recorded.
+- Every product on the lists above was tested, and the notes are public.
+- The week-6 products can work in production, or the report says why a build was dropped.
+- The products are concrete enough to submit in the next Catalyst round.
+- The week-7 note on AI and blockchain is public.
 
-A documented “do not build” result passes the milestone.
+A “do not build” result can close a category. It does not unlock the week-6 payment.
 
 ### 7. Timeline
 
-One session per week. Work continues between sessions.
+Six test weeks, then one joint week. **Wednesday: DeFi. Thursday: Layer 2.** Week 7 is both teams together. No extra budget for week 7.
 
-| Weeks | Work |
-| --- | --- |
-| 1–2 | Choose tools, set criteria, prepare test environments, publish the plan. |
-| 3–6 | Run Layer 2 tests. Publish notes. Choose the single L1-compatible prototype. |
-| 7–8 | Finish the Layer 2 prototype. Start liquidity baselines. |
-| 9–11 | Run DeFi tests, write three case studies, build the selected prototypes. |
-| 12 | Demo, publish code and the final report, and recommend whether a next phase is justified. |
+| Week | Wednesday | Thursday | Pay |
+| --- | --- | --- | --- |
+| 1 | DeFi and stablecoins | Core infrastructure | Medium |
+| 2 | Payment | Data, oracles, and analytics | Research, equal |
+| 3 | Identity and authentication | Bridges and interoperability | Research, equal |
+| 4 | Real-world asset tokenization | Payment channels and Hydra | Research, equal |
+| 5 | Finish remaining DeFi tests | Finish remaining Layer 2 tests | Research, equal |
+| 6 | DeFi working product | Layer 2 working product | Highest, if it can work in production |
+| 7 | Both teams meet. Share what was tested and built. Discuss how AI can help in blockchain. | | No separate pay |
 
 ### 8. Resources Required
 
-One technical lead runs most tests and prototype code, with a small number of contributors. These are planning figures, not quotes.
+**12,000 ADA** pays for weeks 1–6. Each week’s payment is split in half: Layer 2 hosts and Gimbalabs contributors.
 
-| | ADA |
-| --- | ---: |
-| Requested | 12,000 |
-| Returned to treasury (10%) | 1,200 |
-| Spent on the program | 10,800 |
-
-Lean option: **9,000 ADA** requested, **900 ADA** returned, **8,100 ADA** for a smaller prototype scope.
-
-| Item | ADA | Pays for |
+| Pool | ADA | Pays |
 | --- | ---: | --- |
-| Research and technical leadership | 3,600 | Tool selection, experiments, architecture, analysis, writing |
-| Prototype development | 2,700 | Layer 2 proof of concept and DeFi prototypes |
-| Sessions | 1,080 | Demos, slides, streaming, recording, editing |
-| Testing | 720 | Environments, node or API access, testnet, limited mainnet tests |
-| Documentation | 720 | Repositories, setup steps, diagrams, final report |
-| Expert review | 900 | Guests, technical feedback, developer review |
-| Contingency | 1,080 | Unexpected integration work and tool costs |
-| **Program spend** | **10,800** | |
-| **Returned to treasury** | **1,200** | |
+| Layer 2 hosts | 6,000 | Thursday tests and the week-6 product |
+| Gimbalabs contributors | 6,000 | Wednesday tests, plus one Layer 2 contributor from Gimbalabs |
 | **Total** | **12,000** | |
 
-Do not raise this request above 12,000 ADA before the tests show what deserves more money.
+| People | Split | Each |
+| --- | ---: | ---: |
+| Ahmed, Jethro, and one person from the community | 3,000 / 3 | 1,000 |
+| One Gimbalabs Layer 2 contributor, and one other nominee | 2,000 / 2 | 1,000 |
+| Week-6 production product | 1,000 | Paid only if it can work in production |
+| **Gimbalabs pool** | **6,000** | |
 
-Funds move only when the output is accepted. Ten percent of each release returns at payout. A “do not build” finding can satisfy a milestone. A second phase is a separate proposal.
+Ahmed and Jethro are nominated. The community seat, the Gimbalabs Layer 2 seat, and the second seat in the 2,000 ADA pair are open.
 
-| Milestone | Released | Returned | Kept | Accepted when |
-| --- | ---: | ---: | ---: | --- |
-| 1. Framework (25%) | 3,000 | 300 | 2,700 | Schedule, candidate projects, method, repositories, and baseline notes are public. |
-| 2. Experiments (35%) | 4,200 | 420 | 3,780 | Layer 2 comparisons, early experiments, and first liquidity benchmarks are public. |
-| 3. Prototypes (30%) | 3,600 | 360 | 3,240 | The L1-compatible prototype, two DeFi prototypes, and three case studies are demonstrated. A written scope cut can replace a dropped prototype. |
-| 4. Publication (10%) | 1,200 | 120 | 1,080 | Recordings, code, setup steps, the final report, and a short retrospective are public. |
-| **Total** | **12,000** | **1,200** | **10,800** | |
+| Week | Each pool | Both pools | Why |
+| --- | ---: | ---: | --- |
+| 1 | 1,000 | 2,000 | First sessions. Medium. |
+| 2 | 750 | 1,500 | Research. |
+| 3 | 750 | 1,500 | Research. |
+| 4 | 750 | 1,500 | Research. |
+| 5 | 750 | 1,500 | Research. |
+| 6 | 2,000 | 4,000 | Working product. Highest. |
+| 7 | 0 | 0 | Joint AI meeting. |
+| **Total** | **6,000** | **12,000** | |
+
+Week 6 is not paid for a diagram or a talk. If the product cannot work in production, that payment stays unreleased.
 
 ### 9. Responsibilities
 
-The **program lead** selects tools, runs the experiments, writes or directs the code, and presents the sessions. **Contributors** help with tests, reviews, and documentation from the budget above. **Guest reviewers** are invited, not assumed. **Gimbalabs** accepts or returns each milestone with specific gaps, releases funds, and records the 10% return. Attendance is not acceptance.
+**Emmanuel** is the project lead and the Layer 2 research lead. He joins the DeFi team, the live sessions, and the week-7 meeting as a volunteer, so that time is not paid.
+
+**Layer 2 hosts** run Thursday from the 6,000 ADA Layer 2 pool. **Ahmed, Jethro, and the community nominee** share 3,000 ADA. **One Gimbalabs Layer 2 contributor**, nominated by anyone, and **one other nominee** share 2,000 ADA.
+
+Both teams attend week 7. **Gimbalabs** accepts each week’s output before that week’s payment. Attendance is not acceptance.
 
 ### 10. Potential Risks and Mitigation Strategies
 
 | Risk | Mitigation |
 | --- | --- |
-| Sessions produce talks, not tests. | The next milestone requires published experiments, code, or a report. |
-| The budget is split across too many builds. | One Layer 2 prototype. DeFi stays on liquidity fragmentation. Narrow scope in writing if needed. |
-| The build copies an existing tool. | Test current tools first. “Do not build” satisfies the milestone. |
+| Sessions skip products and jump to a build. | A category is not built until its listed products are tested. |
+| The Catalyst submission is still a generic pitch. | Week 6 must leave a working product, not a research topic. |
+| Week 6 claims a product that cannot run in production. | The highest payment stays unreleased. |
 | Tests create security or cost risk. | Keep tests small. No production bridge, liquidity provision, or full audit in this budget. |
 
 ### 11. Review and Adaptation Plan
 
-Review at each milestone, and in Open Spaces while the program runs. If a prototype is unnecessary or unsafe, publish that and narrow the output before more build funds are released. If a budget line is exceeded, use contingency and record it; anything beyond that needs a new proposal. The week-12 report states what was learned, built, not built, returned to the treasury, and whether a second phase should be proposed.
+Review each week in Open Spaces. If a listed product cannot be tested, replace it in writing before the next session. Week 7 records what was built, what was dropped, and whether the products are ready to submit to Catalyst.
 
 ### 12. Licensing and Intellectual Property
 
-Notes, recordings, diagrams, benchmarks, and new code from this funding are public. New code uses an open-source license agreed with Gimbalabs before the repository is created. Dependency licenses and the licenses of projects under test still apply.
-
-The 10% treasury return is a funding term, not an ownership claim. If a later phase turns a prototype into a product or a paid service, ownership and any revenue share are written down before that phase is funded.
+Notes, recordings, and new code from this funding are public. New code uses an open-source license agreed with Gimbalabs before the repository is created. Licenses of products under test still apply.
 
 ---
 
