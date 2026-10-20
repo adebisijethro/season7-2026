@@ -87,7 +87,7 @@ Test every product in that week’s row before starting a build. Wednesday is De
 | 2 | Payment | | What does it take to send or settle a payment with these tools? | Payment flow note. |
 | 3 | Identity and authentication | | Can a credential be issued and checked in one workflow? | One integration test and a list of gaps. |
 | 4 | Real-world asset tokenization | | How is a real-world asset minted, transferred, and limited? | Tokenization case study. |
-| 5 | Remaining DeFi tests | | What blocks collateral, borrowing, and stablecoin use across these apps? | Case study and integration note. |
+| 5 | Programmable tokens | | How do programmable tokens work with wallets, SDKs, and apps, including transfer limits? | One integration test and a list of compatibility gaps. |
 | 6 | Working product | | Which tested gap is worth a working DeFi product for the next Catalyst round? | One working product on preprod, or a written reason not to build. |
 
 Week 7 is not a test session. Both teams meet, share what was tested and built, and discuss how AI can help in blockchain.
@@ -124,7 +124,7 @@ Six test weeks, then one joint week. **Wednesday: DeFi. Thursday: Layer 2.** Wee
 | 2 | Payment | Data, oracles, and analytics | Research, equal |
 | 3 | Identity and authentication | Bridges and interoperability | Research, equal |
 | 4 | Real-world asset tokenization | Payment channels and Hydra | Research, equal |
-| 5 | Remaining DeFi tests | Remaining Layer 2 tests | Research, equal |
+| 5 | Programmable tokens | Remaining Layer 2 tests | Research, equal |
 | 6 onward | DeFi building | Layer 2 building | Paid after building cand demo launch with announcement to community |
 | 7 | Both teams meet. Share what was tested and built. Discuss how AI can help in blockchain. | | No separate pay |
 
