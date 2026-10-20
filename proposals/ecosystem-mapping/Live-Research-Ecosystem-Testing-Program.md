@@ -15,7 +15,9 @@ Gimbalabs funds experiments, not just activities. This program must leave eviden
 
 ### Current Situation
 
-Cardano builders often discuss Layer 2 designs, bridges, oracles, and DeFi tools before those tools are tested for cost, speed, trust, and failure. Project Catalyst’s recent themes stablecoins, programmable tokens, oracles, and verifiable identity are useful starting points, not a build list.
+The goal is to find what people need. The first direction comes from the Cardano Foundation’s [2025 State of the Developer Ecosystem survey](https://cardano-foundation.github.io/state-of-the-developer-ecosystem/2025/#which-category-of-cardano-decentralized-applications-dapps-are-you-currently-working-on-or-most-interested-in). Developers named identity and authentication as the dApp category they are working on or most interested in, then DeFi and stablecoins, then core infrastructure. The Foundation’s [results write-up](https://cardanofoundation.org/blog/2025-developer-ecosystem-survey-results) records the same order.
+
+Cardano builders often discuss Layer 2 designs, bridges, oracles, and DeFi tools before those tools are tested for cost, speed, trust, and failure. Project Catalyst’s recent themes — stablecoins, programmable tokens, oracles, and verifiable identity — are useful starting points, not a build list. The survey decides where to look first. The sessions then test what already exists.
 
 In addition, to the funding and sustainability of Gimbalabs, The next Project Catalyst round may not have an ecosystem or general category with what we witnessed with the pilot phase. Also a research pitch without a working product would have nowhere clear to go.
 
@@ -38,7 +40,7 @@ Twelve test sessions in six weeks, two per week. Wednesday is DeFi. Thursday is 
 
 ### 2. Background or Rationale
 
-Test first. Build second. The categories below are the test list, not seven products Gimbalabs must invent.
+Test first. Build second. The first direction is the Cardano Foundation survey: identity and authentication, then DeFi and stablecoins, then core infrastructure. The categories below are the test list, not seven products Gimbalabs must invent.
 
 **Thursday — Layer 2.** Test core infrastructure, oracles, bridges, and payments. If a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2 that works with Cardano L1? This track is narrower. It stays on one infrastructure question and ends in one prototype, so two people are enough.
 
